@@ -551,8 +551,8 @@ sqlalchemy = "*"
 [package.source]
 type = "git"
 url = "https://github.com/joshainglis/schemainspect.git"
-reference = "621e7b4fcb2f52d7d0f5d4a30ecae182ff4a2ff0"
-resolved_reference = "621e7b4fcb2f52d7d0f5d4a30ecae182ff4a2ff0"
+reference = "91fe044711901cac6bf3c6e41bde116f72417412"
+resolved_reference = "91fe044711901cac6bf3c6e41bde116f72417412"
 
 [[package]]
 name = "six"
@@ -703,4 +703,4 @@ pg = ["psycopg2"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4"
-content-hash = "7c3477509cc9de1e0facd8d1c2295e96ebadae8a779d26ab4a0f1fb401a4239b"
+content-hash = "d356c426af0e9bb7590768ca18f487f42b18feb25ebcd7530e4988663fd7f758"
