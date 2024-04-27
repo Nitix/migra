@@ -31,13 +31,15 @@ def parse_args(args):
     parser.add_argument(
         "--schema",
         dest="schema",
-        default=None,
+        action='append',
+        default=[],
         help="Restrict output to statements for a particular schema",
     )
     parser.add_argument(
         "--exclude_schema",
         dest="exclude_schema",
-        default=None,
+        action='append',
+        default=[],
         help="Restrict output to statements for all schemas except the specified schema",
     )
     parser.add_argument(
@@ -76,8 +78,8 @@ def parse_args(args):
 
 
 def run(args, out=None, err=None):
-    schema = args.schema
-    exclude_schema = args.exclude_schema
+    schema = set(args.schema)
+    exclude_schema = set(args.exclude_schema)
     if not out:
         out = sys.stdout  # pragma: no cover
     if not err:
