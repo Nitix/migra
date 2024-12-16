@@ -675,8 +675,7 @@ class Changes(object):
         return partial(
             statements_for_changes,
             self.i_from.comments,
-            self.i_target.comments,
-            modifications=False,
+            self.i_target.comments
         )
 
     def __getattr__(self, name):

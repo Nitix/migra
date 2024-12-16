@@ -601,9 +601,9 @@ sqlalchemy = "*"
 
 [package.source]
 type = "git"
-url = "https://github.com/joshainglis/schemainspect.git"
-reference = "eeda5c18d26fce006a826cfe63f8683b4490a321"
-resolved_reference = "eeda5c18d26fce006a826cfe63f8683b4490a321"
+url = "https://github.com/Nitix/schemainspect.git"
+reference = "771428d850cb7f4874dd40755e590dc53d08d399"
+resolved_reference = "771428d850cb7f4874dd40755e590dc53d08d399"
 
 [[package]]
 name = "six"
